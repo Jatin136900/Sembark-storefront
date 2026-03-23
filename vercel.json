@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd sembark-assignment && npm install",
+  "buildCommand": "cd sembark-assignment && npm run build",
+  "outputDirectory": "sembark-assignment/build",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
