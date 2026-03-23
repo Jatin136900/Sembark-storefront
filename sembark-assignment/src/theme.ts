@@ -1,0 +1,45 @@
+export const theme = {
+  colors: {
+    pageBackground: "#f4ecdf",
+    surface: "#fffaf2",
+    surfaceMuted: "#f8efdf",
+    line: "#dbcab5",
+    text: "#14243b",
+    textMuted: "#5f6875",
+    accent: "#0f6e8c",
+    accentSoft: "#ddf0f7",
+    accentWarm: "#ea8b4b",
+    success: "#1f7a51",
+    danger: "#b04a3b",
+    footer: "#14243b",
+    footerText: "#fff8ed",
+  },
+  shadows: {
+    soft: "0 20px 50px rgba(20, 36, 59, 0.08)",
+    card: "0 28px 80px rgba(20, 36, 59, 0.12)",
+  },
+  radii: {
+    xl: 32,
+    lg: 28,
+    md: 20,
+    sm: 14,
+    pill: 999,
+  },
+  spacing: {
+    xs: 8,
+    sm: 12,
+    md: 16,
+    lg: 24,
+    xl: 32,
+    xxl: 48,
+  },
+  maxWidth: 1180,
+  fonts: {
+    heading: "\"Constantia\", \"Palatino Linotype\", Georgia, serif",
+    body: "\"Aptos\", \"Segoe UI Variable Text\", \"Segoe UI\", sans-serif",
+  },
+  transitions: {
+    fast: "160ms ease",
+    standard: "240ms ease",
+  },
+} as const;
